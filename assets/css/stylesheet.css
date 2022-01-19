@@ -59,9 +59,7 @@ body{
 }
 
 /* ----logo and side small menu---- */
-.top_head2 .container-fluid{
-    height: 75px;
-}
+
 .top_head2 .nav_button{
     height: 30px;
     width: 40px;
