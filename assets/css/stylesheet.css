@@ -1,0 +1,609 @@
+/* -----include font family----- */
+@font-face {
+    font-family: ralewaysemibold ;
+    src: url('../font/Raleway-SemiBold.otf');
+}
+@font-face {
+    font-family:pepsi;
+    src: url(../font/PEPSI_pl.ttf);
+}
+@font-face {
+    font-family:ralewaybold ;
+    src: url(../font/Raleway-Bold.otf);
+}
+@font-face {
+    font-family:ralewaylight ;
+    src: url(../font/Raleway-Light.otf);
+}
+@font-face {
+    font-family:raleway ;
+    src: url(../font/Raleway-Regular.otf);
+}
+@font-face {
+    font-family:titillium ;
+    src: url(../font/TitilliumWeb-Regular.ttf);
+}
+
+.container{
+    max-width: 1197px !important;
+}
+
+/* ----css start---- */
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+
+/* ----Top HEAD CSS---- */
+
+.top_head1 .container-fluid{
+    background-color: black;
+}
+.top_head1 .fa-envelope{
+    margin: auto 5px;
+    color: white;
+}
+.top_head1 .fa-file-alt{
+    margin: auto 5px;
+    color: white;
+}
+.top_head1 a{
+    color: white;
+    font-family:ralewaysemibold ;
+    text-decoration: none;
+    align-items: center;
+    margin: auto 0px;
+    font-size: 14px;
+}
+
+/* ----logo and side small menu---- */
+.top_head2 .container-fluid{
+    height: 75px;
+}
+.top_head2 .nav_button{
+    height: 30px;
+    width: 40px;
+    margin: auto;
+    margin-right: 10px;
+    border: 1px solid #0170c1 ;
+    background-color: #0170c1;
+    border-radius: 10px;
+    color: white;
+}
+.top_head2 a{
+    color: #0170c1;
+    font-family:pepsi ;
+    text-decoration: none;
+    align-items: center;
+    margin: auto 0px;
+    font-size: 34px;
+}
+.top_head2 form{
+    background-color: #0170c1;
+    height: 30px;
+    border: 1px solid #0170c1;
+}
+.top_head2 form input{
+    width: -webkit-fill-available;
+}
+.top_head2 form .fa-search{
+    color: white;
+}
+.top_head2 .top_head2_small{
+    margin: auto 0;
+}
+.top_head2 .top_head2_small a{
+    font-family:ralewaysemibold ;
+    text-decoration: none;
+    font-size: 14px;
+    color: #000000;
+    font-weight: 600;
+}
+
+/* ----OFF CENVAS CSS---- */
+.offcanvas a{
+    color: #0170c1;
+    font-family:pepsi ;
+    text-decoration: none;
+    align-items: center;
+    margin: auto 0px;
+    font-size: 34px;
+}
+.offcanvas{
+    width: 300px;
+}
+.offcanvas ul li{
+    list-style-type: none;
+    display: flex;
+}
+.offcanvas ul li a{
+    text-decoration: none;
+    color: #1ea0ff;
+    font-family: ralewaybold;
+    font-size: 16px;
+}
+.offcanvas ul li:hover{
+    background-color: #1ea0ff;
+    color: white;
+}
+
+
+
+
+
+/* ----Img slider---- */
+header .slider{
+    overflow: hidden;
+}
+
+
+/* ----NAVIGATION MENU---- */
+
+.navigationbar{
+    background-color: #0170c1;
+    height: 60px;
+}
+.navigationbar ul li{
+    list-style-type: none;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.navigationbar  ul{
+    height: 100%;
+    width: 100%;
+}
+.navigationbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: ralewaybold;
+    font-size: 16px;
+    margin: auto;
+}
+.navigationbar ul li:hover{
+    background-color: #1ea0ff;
+}
+
+/* ----NAVIGATION BAR MEDIA CSS---- */
+@media screen and (max-width:1149px) {
+    .navigationbar ul li a{
+        font-size:12px ;
+    }
+}
+@media screen and (min-width:768px) {
+    .top_head2 .nav_button{
+        display: none;
+    }
+}
+@media screen and (max-width:768px) {
+    .top_head2 .nav_button{
+        display: block;
+    }
+    .navigationbar{
+        display: none !important;
+    }
+}
+
+/* ----SECTION CSS----- */
+
+/* ----WELCOME TO OUR SITE---- */
+section .welcome{
+    background-color: #efefef;
+    padding: 38px 0px;
+}
+section .welcome  h4{
+    font-family: ralewaylight;
+    font-size: 34px;
+    color: #000000;
+    font-weight: 300;
+}
+section .welcome  .person_image{
+    width: 140px;
+    height: 140px;
+    border-radius: 70px;
+    filter: drop-shadow(2px 3.464px 7px #231f20);
+    border: 7px solid #ffffff;
+    background-image: url('../img/welcome_lady.png');
+}
+section .welcome p{
+    font-family: raleway;
+}
+section .welcome  button{
+    background-color: #0170c1;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: ralewaybold;
+}
+
+/* ----OUR SERVICES CSS---- */
+
+section .our_services{
+    background-color: #ffffff;
+    padding: 38px 0px;
+}
+section .our_services h4{
+    font-family: ralewaylight;
+    font-size: 34px;
+    color: #000000;
+    font-weight: 300;
+}
+section .our_services  .content_wrep_ser{
+    width:270px; 
+    margin: auto;
+}
+section .our_services .content_wrep_ser .services_sym{
+    width: 99px;
+    height: 99px;
+    border-radius: 49px;
+    background-color: #0170c1;
+    border: 7px solid #efefef;
+    margin: auto;
+    margin-bottom: -30px;
+    position: relative;
+}
+section .our_services .content_wrep_ser .services_sym img{
+    display: block;
+    margin: auto;
+    margin-top: 13px;
+}
+section .our_services .content_wrep_ser .ser_desc{
+    text-align: center;
+    background-color: #efefef;
+}
+section .our_services  .content_wrep_ser .ser_desc h4{
+    font-size: 24px;
+    color: #3c3c44;
+    font-weight: 600;
+    font-family: raleway;
+    padding: 72px 0px 25px 0px;
+}
+section .our_services  .content_wrep_ser .ser_desc p{
+    font-size: 15px;
+    line-height: 19px;
+    color: #666666;
+    font-family: raleway;
+    text-align: center;
+    padding: 0px 15px;
+}
+section .our_services  .content_wrep_ser .ser_desc h5{
+    font-size: 18px;
+    color: #3c3c44;
+    font-weight: 600;
+    font-family: raleway;
+    text-align: center;
+    margin-right: 5px;
+    padding-bottom: 25px;
+}
+section .our_services .content_wrep_ser .ser_desc .fa-arrow-circle-right{
+    color: #0170c1;
+}
+
+/* ----MAKE APPOINTMENT CSS---- */
+
+.make_appo{
+    background-image: url('../img/appointment-img.png');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    padding: 0px;
+    position: relative;
+    height: 538px;
+    overflow: hidden;
+}
+.make_appo .appo_wrep{
+    background-color:#0170c1 ;
+    width: 61%;
+    padding-left: 176px;
+    clip-path: polygon(0 0, 100% 0, 75% 100%, 0% 100%);
+    min-height: 100%;
+}
+.make_appo .appo_wrep .appo_wrep_in{
+    width: 75%;
+}
+.make_appo .appo_wrep h3{
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: titillium;
+    margin: 0px 0px 50px 0px;
+    padding: 80px 0px 0px 0px;
+}
+.make_appo .appo_wrep p{
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: titillium;
+}
+.make_appo .appo_wrep .fa-phone-alt , .fa-envelope{
+    color: white;
+    margin-right: 15px;
+}
+.make_appo .appo_wrep .appo_det p{
+    font-size: 20px;
+    font-family: titillium;
+}
+.make_appo .appo_wrep button{
+    font-size: 24px;
+    color: #0170c1;
+    font-weight: 400;
+    font-family: titillium;
+    padding: 5px 28px;
+    margin-top: 30px;
+    margin-bottom: 62px;
+    border: 1px solid #0170c1 ;
+}
+
+
+/* ----MAKE APPOINTMENT MEDIA QUIERY---- */
+@media screen and (max-width:1314px) {
+    .make_appo .appo_wrep h3{
+        font-size: 35px;
+        margin: 0px 0px 35px 0px;
+        padding: 60px 0px 0px 0px;
+    }
+    .make_appo .appo_wrep{
+        padding-left: 101px;
+    }
+    .make_appo{
+        height: 497px;
+        overflow: hidden;
+    }
+    .make_appo .appo_wrep p{
+        font-size: 14px;
+    }
+}
+
+
+/* ----CASE OF THE MONTH CSS---- */
+
+section .case_mo{
+    background-color: #ffffff;
+    padding: 38px 0px;
+}
+section .case_mo h2{
+    font-family: ralewaylight;
+    font-size: 34px;
+    color: #000000;
+    font-weight: 300;
+    padding: 20px 0px 50px 0px;
+}
+section .case_mo  .content_wrep_mo{
+    width: 271px;
+    overflow-x: hidden;
+    filter: drop-shadow(0 0 6px rgba(0,0,0,0.28));
+    background-color: #ffffff;
+    margin: auto;
+}
+section .case_mo  .content_wrep_mo h3{
+    font-size: 21px;
+    color: #0170c1;
+    font-weight: 600;
+    font-family: ralewaysemibold;
+
+}
+section .case_mo .content_wrep_mo h4{
+    font-size: 16px;
+    color: #232323;
+    font-weight: 600;
+    font-family: ralewaysemibold;
+}
+section .case_mo .content_wrep_mo p{
+    font-size: 14px;
+    color: #333333;
+    font-weight: 500;
+    font-family: raleway;
+    padding-left: 0px 15px;
+}
+section .case_mo .content_wrep_mo img{
+    height: 218px;
+    overflow: hidden;
+}
+@media screen and (max-width:768px) {
+    section .case_mo  .content_wrep_mo{
+        width: 360px;
+    }
+    section .case_mo .content_wrep_mo img{
+        height: unset;
+    }
+}
+
+
+
+
+/* ----LOREM CSS---- */
+
+section .case_mo{
+    background-color: #efefef;
+    padding: 38px 0px;
+}
+section .lorem h2{
+    font-family: ralewaylight;
+    font-size: 34px;
+    color: #000000;
+    font-weight: 300;
+    padding: 20px 0px 50px 0px;
+}
+section .lorem .content_wrep_lorem img{
+    height: 256px;
+    overflow: hidden;
+}
+section .lorem .content_wrep_lorem h3{
+    font-size: 21px;
+    color: #252525;
+    font-weight: 600;
+    font-family: raleway;
+    margin: 25px 0px;
+}
+section .lorem .content_wrep_lorem p{
+    font-size: 14px;
+    color: #252525;
+    font-family: raleway;
+}
+section .lorem  button{
+    background-color: #0170c1;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: ralewaybold;
+    margin: 20px 0px;
+}
+
+
+/* ----Lorem media---- */
+@media screen and (max-width:768px) {
+    section .lorem .col-md-6{
+        width: 500px;
+    }
+}
+
+/* ----PEOPLE REVIEW CSS---- */
+
+.people_rew{
+    background-image: url('../img/people-reviewbg.png');
+    background-color: rgb(180, 180, 180,0.5);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    padding: 0px;
+    position: relative;
+    height: 543px;
+    overflow: hidden;
+    background-size: contain;
+}
+.people_rew::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.6;
+}
+.people_rew .rew_wrep{
+    background-color:#0170c1 ;
+    width: 61%;
+    padding-left: 176px;
+    clip-path: polygon(0 0, 100% 0, 75% 100%, 0% 100%);
+}
+.people_rew .rew_wrep .rew_wrep_in{
+    width: 85%;
+}
+.people_rew .rew_wrep h3{
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: raleway;
+    margin: 0px 0px 50px 0px;
+    padding: 80px 0px 0px 0px;
+}
+.people_rew .rew_wrep p{
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: titillium;
+}
+.people_rew .rew_wrep h4{
+    font-size: 22px;
+    line-height: 35px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: ralewaybold ;
+}
+.people_rew .rew_wrep .rew_det svg{
+    margin-right: 5px;
+}
+.people_rew .rew_wrep .rew_det{
+    padding: 0px 0px 139px 0px;
+}
+section .people_rew .person_image{
+    position: absolute;
+    right: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 212px;
+    height: 212px;
+    border-radius: 106px;
+    background-color: #cd0082;
+    border: 7px solid #ffffff;
+    background-image: url('../img/peoples1.png');
+}
+
+
+/* ----PEOPLE REWIEW MEDIA---- */
+@media screen and (max-width:1132px) {
+    .people_rew{
+        height: 400px;
+    }
+    .people_rew .rew_wrep{
+        padding-left: 75px;
+    }
+    .people_rew .rew_wrep h3{
+        font-size: 30px;
+        margin: 0px 0px 30px 0px;
+        padding: 30px 0px 0px 0px;
+    }
+    .people_rew .rew_wrep p{
+        font-size: 14px;
+    }
+    section .people_rew .person_image{
+        right: 15%;
+    }
+}
+
+/* ----FOOTER CSS---- */
+footer p{
+    font-size: 15px;
+    font-family: raleway;
+}
+footer .col_logo a{
+    color: #0170c1;
+    font-family:pepsi ;
+    text-decoration: none;
+    align-items: center;
+    margin: auto 0px;
+    font-size: 34px;
+}
+footer form{
+    background-color: #0170c1;
+    height: 30px;
+    border: 1px solid #0170c1;
+}
+footer form input{
+    width: -webkit-fill-available;
+}
+footer form button{
+    background-color: #0170c1;
+    color: white;
+    font-family: ralewaybold;
+    font-size: 21px;
+    border: 1px solid #0170c1;
+    display: flex;
+    align-items: center;
+}
+footer i {
+    font-size: 31px;
+}
+footer i.fa-facebook-square{
+    color: #3b5a9b;
+}
+footer i.fa-twitter-square{
+    color: #2b97f0;
+}
+footer i.fa-google-plus-square{
+    color: #db2814;
+}
+footer i.fa-linkedin{
+    color: #006599;
+}
+footer i.fa-pinterest-square{
+    color: #ca2127;
+}
+footer i.fa-instagram-square{
+    color: #517fa6;
+}
+footer .footer_a a{
+    text-decoration: none;
+    color: black;
+    margin : 0px 5px;
+}
