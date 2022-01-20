@@ -507,7 +507,6 @@ section .lorem  button{
     position: relative;
     height: 543px;
     overflow: hidden;
-    background-size: contain;
 }
 .people_rew::before{
     content: '';
@@ -524,7 +523,7 @@ section .lorem  button{
     clip-path: polygon(0 0, 100% 0, 75% 100%, 0% 100%);
 }
 .people_rew .rew_wrep .rew_wrep_in{
-    width: 85%;
+    width: 100%;
 }
 .people_rew .rew_wrep h3{
     font-size: 40px;
@@ -587,6 +586,42 @@ section .people_rew .person_image{
         right: 15%;
     }
 }
+@media screen and (max-width:770px) {
+    .people_rew .rew_wrep{
+        text-align: center;
+        background-color: transparent;
+        width: 100%;
+        padding-left: unset;
+    }
+    section .people_rew .person_image{
+        margin: auto;
+        margin-top: 15px;
+        position: unset;
+        right: unset;
+        top: unset;
+        transform: unset;
+        width: 125px;
+        height: 125px;
+        border-radius: 106px;
+        background-color: #cd0082;
+        border: 7px solid #ffffff;
+        background-image: url('../img/peoples1.png');
+        background-position: center;
+    }
+    .people_rew .rew_wrep h3{
+        font-size: 25px;
+        margin: 0px 0px 15px 0px;
+        padding: 5px 0px 0px 0px;
+    }
+    .people_rew .rew_wrep p{
+        font-size: 12px;
+    }
+    .people_rew .rew_wrep .rew_det{
+        justify-content: center;
+    }
+}
+
+
 
 /* ----FOOTER CSS---- */
 footer p{
