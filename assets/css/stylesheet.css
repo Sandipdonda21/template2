@@ -216,6 +216,11 @@ section .welcome  button{
     font-weight: 700;
     font-family: ralewaybold;
 }
+section .welcome button:hover{
+    background-color: white;
+    color:#0170c1 ;
+    border: 1px solid #0170c1;
+}
 
 /* ----OUR SERVICES CSS---- */
 
@@ -486,6 +491,11 @@ section .lorem  button{
     font-weight: 700;
     font-family: ralewaybold;
     margin: 20px 0px;
+}
+section .lorem button:hover{
+    background-color: white;
+    color: #0170c1;
+    border: 1px solid #0170c1;
 }
 
 
