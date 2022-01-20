@@ -593,6 +593,7 @@ section .people_rew .person_image{
         background-color: transparent;
         width: 100%;
         padding-left: unset;
+        clip-path: unset;
     }
     section .people_rew .person_image{
         margin: auto;
