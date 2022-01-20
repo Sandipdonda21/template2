@@ -353,6 +353,45 @@ section .our_services .content_wrep_ser .ser_desc .fa-arrow-circle-right{
         font-size: 14px;
     }
 }
+@media screen and (max-width:930px) {
+    .make_appo .appo_wrep h3{
+        font-size: 30px;
+        margin: 0px 0px 35px 0px;
+        padding: 60px 0px 0px 0px;
+    }
+    .make_appo .appo_wrep p{
+        font-size: 14px;
+    }
+    .make_appo .appo_wrep button{
+        font-size: 20px;
+    }
+    .make_appo .appo_wrep .fa-phone-alt , .fa-envelope{
+        color: white;
+        margin-right: 12px;
+    }
+    .make_appo .appo_wrep .appo_det p{
+        font-size: 15px;
+        font-family: titillium;
+    }
+}
+@media screen and (max-width:830px) {
+    .make_appo .appo_wrep{
+        clip-path: unset;
+        background-color: black;
+        opacity: 0.6;
+        width: 100%;
+        padding: 0px 50px;
+    }
+    .make_appo .appo_wrep .appo_wrep_in{
+        width: 100%;
+    }
+    .make_appo{
+        background-image: url('../img/appointment-img.png');
+        background-repeat: no-repeat;
+        background-position: left;
+        height: 450px;
+    }
+}
 
 
 /* ----CASE OF THE MONTH CSS---- */
