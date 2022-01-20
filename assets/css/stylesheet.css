@@ -523,7 +523,7 @@ section .lorem  button{
     clip-path: polygon(0 0, 100% 0, 75% 100%, 0% 100%);
 }
 .people_rew .rew_wrep .rew_wrep_in{
-    width: 100%;
+    width: 85%;
 }
 .people_rew .rew_wrep h3{
     font-size: 40px;
@@ -557,8 +557,9 @@ section .people_rew .person_image{
     right: 20%;
     top: 50%;
     transform: translateY(-50%);
-    width: 212px;
-    height: 212px;
+    width: 175px;
+    height: 175px;
+    background-position: center;
     border-radius: 106px;
     background-color: #cd0082;
     border: 7px solid #ffffff;
