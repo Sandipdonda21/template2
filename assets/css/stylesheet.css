@@ -620,6 +620,9 @@ section .people_rew .person_image{
     .people_rew .rew_wrep .rew_det{
         justify-content: center;
     }
+    .people_rew .rew_wrep .rew_wrep_in{
+        width: 100%;
+    }
 }
 
 
