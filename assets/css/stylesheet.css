@@ -489,6 +489,14 @@ section .case_mo .content_wrep_mo img{
         height: unset;
     }
 }
+@media screen and (max-width:420px) {
+    section .case_mo h2{
+        font-size: 25px;
+    }
+    section .case_mo  .content_wrep_mo{
+        width: 250px;
+    }
+}
 
 
 
@@ -543,6 +551,13 @@ section .lorem button:hover{
         width: 500px;
     }
 }
+@media screen and (max-width:420px) {
+    section .lorem h2{
+        font-size: 25px;
+    }
+}
+
+
 
 /* ----PEOPLE REVIEW CSS---- */
 
