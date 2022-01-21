@@ -114,7 +114,11 @@ body{
 }
 .offcanvas ul li{
     list-style-type: none;
-    display: flex;
+    text-align: center;
+    padding: 5px 0px;
+}
+.offcanvas hr{
+    margin: 0px;
 }
 .offcanvas ul li a{
     text-decoration: none;
