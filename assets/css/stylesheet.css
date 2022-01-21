@@ -301,7 +301,24 @@ section .our_services .content_wrep_ser .ser_desc .fa-arrow-circle-right{
 
 /* ----OUR SERVICES MEDIA---- */
 @media screen and (max-width:430px) {
-    
+    section .our_services h4{
+        font-size: 25px;
+    }
+    section .our_services  .content_wrep_ser .ser_desc h4{
+        font-size: 20px;
+        padding: 50px 0px 25px 0px;
+    }
+    section .our_services  .content_wrep_ser .ser_desc p{
+        font-size: 12px;
+        line-height: 19px;
+    }
+    section .our_services  .content_wrep_ser .ser_desc h5{
+        font-size: 15px;
+        padding-top: 2px;
+    }
+    section .our_services .ser_desc_lm{
+        align-items:flex-start;
+    }
 }
 
 
