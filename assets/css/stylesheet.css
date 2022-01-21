@@ -225,6 +225,17 @@ section .welcome button:hover{
     border: 1px solid #0170c1;
 }
 
+/* ----WELCOME TO OUR SITE MEDIA QUERY---- */
+@media screen and (max-width:430px) {
+    section .welcome  h4{
+        font-size: 25px;
+    }
+    section .welcome p{
+        font-size: 14px;
+    }
+}
+
+
 /* ----OUR SERVICES CSS---- */
 
 section .our_services{
@@ -288,6 +299,12 @@ section .our_services .content_wrep_ser .ser_desc .fa-arrow-circle-right{
     color: #0170c1;
 }
 
+/* ----OUR SERVICES MEDIA---- */
+@media screen and (max-width:430px) {
+    
+}
+
+
 /* ----MAKE APPOINTMENT CSS---- */
 
 .make_appo{
@@ -340,6 +357,7 @@ section .our_services .content_wrep_ser .ser_desc .fa-arrow-circle-right{
     margin-top: 30px;
     margin-bottom: 62px;
     border: 1px solid #0170c1 ;
+    background-color: white;
 }
 
 
